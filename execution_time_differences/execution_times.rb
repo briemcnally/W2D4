@@ -36,6 +36,7 @@ def largcon_phase1(arr)
     end
   end
 
+
   # subs
   subs.map {|sub| sub.reduce(:+)}.max
 end
